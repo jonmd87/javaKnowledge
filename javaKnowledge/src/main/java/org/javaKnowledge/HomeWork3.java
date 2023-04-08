@@ -42,7 +42,6 @@ public class HomeWork3 {
 
         static void removeIntegers(List<String> strings) {
             // TODO: 31.03.2023 Удалить строки, которые являются целыми числами
-            System.out.println(strings);
             Iterator iterator = strings.iterator();
             while (iterator.hasNext()) {
                 if (isNumber((String) iterator.next())) {
