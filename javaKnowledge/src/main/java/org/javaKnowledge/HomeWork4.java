@@ -22,7 +22,7 @@ public class HomeWork4 {
         List<String> list = new ArrayList<>();
         String input;
 
-        while (!EXIT.equals(input = (scanner.nextLine()).toLowerCase(Locale.ROOT))) {
+        while (!EXIT.equals(input = (scanner.nextLine()).toLowerCase())) {
             switch (input) {
                 case PRINT :
                     System.out.println(list);
